@@ -2,13 +2,13 @@
 * {
     margin: 0;
     padding: 0;
-    /* supaya border termasuk dalam box */
     box-sizing: border-box;    
 }
 
 body {
     background-image: url("../img/sea-gb72f0a450_1920.jpg");
-    background-size: cover;
+    background-size:auto;
+    background-repeat: no-repeat;
 }
 .font-Fjalla {
     font-family: 'Fjalla One', sans-serif;
@@ -33,24 +33,26 @@ h1 {
     text-align: center;
 }
 .font-blue {
-    color: #df3f67;
+    color: #dd6583;
 }
 .kiri {
-    background-image: url(../xyz-zoo/himawari.jpg);
+    background-image: url(../img/animal-g1c0d5c811_1920.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .kanan {
-    background-image: url(../xyz-zoo/pexels-anna-shvets-4588065.jpg);
+    background-image: url(../img/office-g16e51f921_1920.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .kiri, .kanan {
     height: 350px;
-    width: 49%;    
+    width: 49%; 
+    border: px solid rgb(228, 90, 113);   
     overflow: hidden;
+    border-radius: 10px;
 }
 .project {
     display: flex;
@@ -61,11 +63,11 @@ h1 {
     text-decoration: none;
     font-size: 48px;
     font-family: 'Fjalla One', sans-serif;
-    color: #ffffff;
+    color: #0a2250;
     display: block;
     width: 100%;
     height: 100%;
-    background: rgba(211, 207, 255, 0.819);    
+    background: rgba(255, 255, 255, 0.819);    
     filter: blur(100%);
     display: flex;
     justify-content: center;

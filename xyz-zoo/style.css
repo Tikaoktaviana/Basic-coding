@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Lobster&family=Oswald:wght@500&family=Sansita:ital@1&family=Secular+One&display=swap');
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;  
+}
+body {
+    background-image: url("../img/sea-gb72f0a450_1920.jpg");
+    background-size: cover;
+}
+body .top {
+    background:#ffffff;
+    width: 400px;
+    padding: 10px 10px 10px;
+}
+.font-Sansita {
+    font-family: 'Sansita', sans-serif;
+}
+
+.container {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+}
+}
+.banner {    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banner img {
+    display: block;
+    width: 100%;
+}
+h1 {
+    color: #ffffff;
+    font-family: 'Sansita one', sans-serif;
+    text-align: center;
+    max-width: 980px;
+    background-color: rgb(82, 117, 106);
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.familia {
+    flex-wrap: wrap;
+    display: flex;
+}
+.familia {
+    flex-wrap: wrap;
+    display: flex;
+}
+.familia {
+    flex-wrap: wrap;
+    display: flex;
+}
+#animal-list>li{
+    background: #ffffff;
+    margin: 10px auto;
+    border: 2px rgb(253, 156, 156);
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+img {
+    border: 4px solid #103152;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    /* Pusatkan secara vertikal */
+    position: absolute;
+    top: 50%;
+    margin-top: -25px; 
