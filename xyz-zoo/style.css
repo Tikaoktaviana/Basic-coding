@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;  
+    
 }
 body {
     background-image: url("../img/sea-gb72f0a450_1920.jpg");
@@ -22,7 +23,6 @@ body .top {
     width: 100%;
     margin: 0 auto;
 }
-}
 .banner {    
     padding-left: 10px;
     padding-right: 10px;
@@ -35,16 +35,21 @@ h1 {
     color: #ffffff;
     font-family: 'Sansita one', sans-serif;
     text-align: center;
-    max-width: 980px;
-    background-color: rgb(82, 117, 106);
+    max-width: 500px;
+    background-color: rgb(4, 41, 97);
     background-position: center;
     margin-left: auto;
     margin-right: auto;
+    border:auto;
 }
 .container {
     max-width: 990px;
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    padding: 30px 30px 30px 30px;
+
 }
 
 .familia {
@@ -54,6 +59,7 @@ h1 {
 .familia {
     flex-wrap: wrap;
     display: flex;
+    border-bottom: #103152;
 }
 .familia {
     flex-wrap: wrap;
@@ -74,12 +80,3 @@ img {
     width: 300px;
     height: 200px;
 }
-
-.child {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    /* Pusatkan secara vertikal */
-    position: absolute;
-    top: 50%;
-    margin-top: -25px; 
