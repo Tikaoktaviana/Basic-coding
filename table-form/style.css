@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Lobster&family=Oswald:wght@500&family=Secular+One&display=swap');
+* {
+    max-width: 990px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#all {
+    background-color:rgb(227, 128, 166);
+    width: 990px;
+    margin:auto;
+    margin-top: 1px;
+    padding: auto;
+
+}
+.body {
+        text-align: center;
+        position: center;
+        margin: 100px;
+        height: auto;
+}
+.container {
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    width: 990px;
+    padding: 80px;
+    border-radius: 20px 
+}
+.container table {
+    width: 90%;
+    border: solid;
+    border-collapse: collapse;
+    display: table;
+    text-indent: initial;
+    margin: 0px;
+}
+.table-second {
+    padding: 10px;
+    margin-bottom: center;
+    max-width: 990px;
+}
+.table {
+    padding-bottom: 20px;
+    max-width: 990px;
+}
+th {
+    background-color: #bb3593;
+    color: white;
+}
+td {
+    background-color: #ffffff;
+}
+tr {
+    background-color: #ffffff;
+}
+form {
+      position: relative;
+}
+h2 {
+   position: center;
+}
+.toiawase{
+    text-align: center;
+}
+form { 
+    max-width: 990px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 10px 260px 2px;
+    height: auto;
+}
+h1{
+    margin-top: 5px;
+    text-align: center;
+}
+.foot{
+    text-align: center;
+}
